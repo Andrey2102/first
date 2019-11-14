@@ -17,5 +17,7 @@
     "mocha": "^6.2.2",
     "npx": "^10.2.0",
     "prettier": "^1.19.1"
-  }
+  },
+  "precommit":"npm run prettier",
+  "prepush": "call npm run lint && call npm run test"
 }
