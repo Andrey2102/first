@@ -1,0 +1,12 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint .",
+    "start": "nodejs index.js"	
+  },
+  "author": "",
+  "license": "ISC"
+}
