@@ -5,8 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "eslint .",
-    "start": "nodejs index.js"	
+    "start": "nodejs index.js"
   },
   "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "lodash": "4.17.15"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "mocha": "^6.2.2",
+    "npx": "^10.2.0",
+    "prettier": "^1.19.1"
+  }
 }
