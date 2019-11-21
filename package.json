@@ -1,7 +1,7 @@
 {
   "name": "first",
   "version": "1.0.0",
-  "description": "",
+  "description": "web laba",
   "main": "index.js",
   "scripts": {
     "precommit": "npm run prettier",
@@ -18,16 +18,14 @@
     "ls",
     "node"
   ],
-  "author": "Andrey2102",
-  "dependencies": {
-    "lodash": "4.17.15"
-  },
+  "author": "Sasha",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrey2102/first/issues"
+  },
   "devDependencies": {
     "eslint": "^6.6.0",
-    "husky": "^3.1.0",
-    "mocha": "^6.2.2",
-    "npx": "^10.2.0",
-    "prettier": "^1.19.1"
+    "husky": "^3.0.9",
+    "prettier": "^1.18.2"
   }
 }
