@@ -32,4 +32,5 @@
   },
   "precommit": "npm run prettier",
   "precommit": "npm run husky",
+  " prepush": "call npm run lint && call npm run test"
 }
