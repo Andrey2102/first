@@ -12,18 +12,14 @@
     "test": "eslint .",
     "start": "node index.js"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Andrey2102/first.git"
   },
-
   "keywords": [
     "ls",
     "node"
   ],
-
-  
   "author": "Basketbaluga",
   "license": "MIT",
   "dependencies": {
@@ -36,6 +32,7 @@
     "husky": "^3.1.0",
     "mocha": "^6.2.2",
     "npx": "^10.2.0",
+    "nvm": "0.0.4",
     "prettier": "^1.19.1"
   }
 }
