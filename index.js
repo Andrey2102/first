@@ -20,11 +20,13 @@ const sendData = (file, type, res) => {
 };
 
 const routing = {
-    '/': sendData.bind(null, '3.html', 'text/html'),
-    '/pic1.png': sendData.bind(null, 'pic1.png', 'image/png'),
-    '/pic2.png': sendData.bind(null, 'pic2.png', 'image/png'),
-    '/pic3.png': sendData.bind(null, 'pic3.png', 'image/png'),
-    '/pic4.png': sendData.bind(null, 'pic4.png', 'image/png'),
+    '/': sendData.bind(null, 'js.html', 'text/html'),
+    '/js.js': sendData.bind(null, 'js.js', 'text/javascript'),
+    '/p1.png': sendData.bind(null, 'p1.png', 'image/png'),
+    '/p2.png': sendData.bind(null, 'p2.png', 'image/png'),
+    '/p3.png': sendData.bind(null, 'p3.png', 'image/png'),
+    '/kur.png': sendData.bind(null, 'kur.png', 'image/png'),
+    '/whi.png': sendData.bind(null, 'whi.png', 'image/png'),
     '/favicon.ico': sendData.bind(null, 'favicon.ico', 'image/ico'),
 };
 
