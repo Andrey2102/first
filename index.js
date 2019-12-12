@@ -20,7 +20,12 @@ const sendData = (file, type, res) => {
 };
 
 const routing = {
-    '/': sendData.bind(null, 'main.html', 'text/html'),
+    '/': sendData.bind(null, '3.html', 'text/html'),
+    '/pic1.png': sendData.bind(null, 'pic1.png', 'image/png'),
+    '/pic2.png': sendData.bind(null, 'pic2.png', 'image/png'),
+    '/pic3.png': sendData.bind(null, 'pic3.png', 'image/png'),
+    '/pic4.png': sendData.bind(null, 'pic4.png', 'image/png'),
+    '/favicon.ico': sendData.bind(null, 'favicon.ico', 'image/ico'),
 };
 
 const server = http.createServer((req, res) => {

@@ -1,12 +1,8 @@
 language:
     node_js
 node_js:
-    -4
+    - 12
 install:
     npm install
 script:
     npm test
-    make lint
-    make test
-notifications:
-  email: false
