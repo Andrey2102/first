@@ -1,8 +1,9 @@
 language:
     node_js
 node_js:
-    -4
-install:
-    npm install
+    -node
 script:
-    npm test
+    make lint
+    make tast
+notifications:
+  email: false
