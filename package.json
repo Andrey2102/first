@@ -1,15 +1,13 @@
 {
-  "name": "NodeAPP",
+  "name": "first",
   "version": "1.0.0",
-  "description": "first project",
+  "description": "web laba",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier --config .prettierrc.json --write src/**/*.js",
-    "doc": "esdoc --out docs/src/ --readme ./README.md",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "precommit": "npm run prettier",
-    "prepush": "call npm run lint && call npm run test",
-    "test": "eslint .",
+    "prepush": "npm run test",
+    "prettier": "prettier --config .prettierrc.json --write index.js",
+    "test": "eslint index.js",
     "start": "node index.js"
   },
   "repository": {
@@ -20,19 +18,14 @@
     "ls",
     "node"
   ],
-  "author": "Basketbaluga",
-  "license": "MIT",
-  "dependencies": {
-    "lodash": "^4.17.15"
+  "author": "Andrey2102",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrey2102/first/issues"
   },
   "devDependencies": {
-    "conventional-changelog-cli": "^2.0.28",
-    "esdoc": "^1.1.0",
-    "eslint": "^6.7.2",
-    "husky": "^3.1.0",
-    "mocha": "^6.2.2",
-    "npx": "^10.2.0",
-    "nvm": "0.0.4",
-    "prettier": "^1.19.1"
+    "eslint": "^6.6.0",
+    "husky": "^3.0.9",
+    "prettier": "^1.18.2"
   }
 }
