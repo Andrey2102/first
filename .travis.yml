@@ -10,4 +10,4 @@ deploy:
   provider: heroku
   app: peaceful-oasis-33622
   api_key:
-    secure: $peaceful-oasis-33622
+    secure: $key
