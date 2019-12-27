@@ -6,10 +6,3 @@ install:
     npm install
 script:
     npm test
-deploy:
-  provider: heroku
-  api_key:
-    secure: 2d0e39c7-316b-468f-91b8-a823a2b9ba3a
-  app: first
-  on:
-    repo: Andrey2102/first

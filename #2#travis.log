@@ -1,0 +1,69 @@
+Command line:
+"travis"
+
+
+   ________                                 __
+  /        |                               /  |
+  ########/ ______    ______    __     __  ##/    _______
+     ## |  /      \  /      \  /  \   /  | /  |  /       |
+     ## | /######  | ######  | ##  \ /##/  ## | /#######/
+     ## | ## |  ##/  /    ## |  ##  /##/   ## | ##      \
+     ## | ## |      /####### |   ## ##/    ## |  ######  |
+     ## | ## |      ##    ## |    ###/     ## | /     ##/
+     ##/  ##/        #######/      #/      ##/  #######/
+
+     TRajectory Analyzer and VISualizer  -  Open-source freeware under GNU GPL v3
+
+     Copyright (c) Martin Brehm      (2009-2015)
+                   Martin Thomas     (2012-2015)
+                   Barbara Kirchner  (2009-2015)
+                   University of Leipzig / University of Bonn.
+
+     http://www.travis-analyzer.de
+
+     Please cite:
+     M. Brehm and B. Kirchner, J. Chem. Inf. Model. 2011, 51 (8), pp 2007-2023.
+
+     There is absolutely no warranty on any results obtained from TRAVIS.
+
+  #  Running on andrey-PORTEGE-M400 at Fri Dec 27 13:38:42 2019 (PID 16959).
+  #  Running in /home/andrey/prog/Web/first
+  #  Source code version: Nov 07 2015.
+  #  Compiled at Nov 17 2015 23:13:07.
+  #  Compiler version: 5.2.1 20151028
+  #  Target platform: Linux
+  #  Compile flags: DEBUG_ARRAYS 
+  #  Machine: int=4b, long=4b, addr=4b, 0xA0B0C0D0=D0,C0,B0,A0.
+  #  User home: /home/andrey
+  #  Exe path: /usr/bin/travis
+  #  Input from terminal, Output to terminal
+
+ >>> Please use a color scheme with dark background or specify "-nocolor"! <<<
+
+    Loading configuration from /home/andrey/.travis.conf ...
+
+    No trajectory file specified.
+    Please use the -p flag to specify an input trajectory in the command line.
+
+    Enter the file name of the trajectory file to open: [Quit] 
+
+*** SIGINT caught: Hard interrupt by user ***
+Stopping Execution.
+Decoding line numbers... ("addr2line <addr> -f -i -C -e /usr/bin/travis")
+ # 16 - [0x080f2028] - ?? - ??:0 
+ # 15 - [0x080f255c] - ?? - ??:0 
+ # 14 - [0x080f2628] - ?? - ??:0 
+ # 13 - [0xb76f6c14] - ?? - ??:0 
+ # 12 - [0xb76f6c2f] - ?? - ??:0 
+ # 11 - [0xb73f4b23] - ?? - ??:0 
+ # 10 - [0xb7389267] - ?? - ??:0 
+ #  9 - [0xb738a237] - ?? - ??:0 
+ #  8 - [0xb738a02c] - ?? - ??:0 
+ #  7 - [0xb737e291] - ?? - ??:0 
+ #  6 - [0xb737e3ce] - ?? - ??:0 
+ #  5 - [0xb737d1ed] - ?? - ??:0 
+ #  4 - [0x081620e4] - ?? - ??:0 
+ #  3 - [0x080751c5] - ?? - ??:0 
+ #  2 - [0xb7337637] - ?? - ??:0 
+ #  1 - [0x0807ba59] - ?? - ??:0 
+Delivering Control to Operating System.
