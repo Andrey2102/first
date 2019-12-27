@@ -5,9 +5,4 @@ node_js:
 install:
     npm install
 script:
-    npm test
-deploy:
-  provider: heroku
-  app: "first"
-  api_key:
-    secure: "2d0e39c7-316b-468f-91b8-a823a2b9ba3a"
+    npm test"
